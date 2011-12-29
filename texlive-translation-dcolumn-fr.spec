@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/translation-dcolu
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 A French translation of the documentation of dcolumn.
@@ -28,7 +26,6 @@ A French translation of the documentation of dcolumn.
 %doc %{_texmfdistdir}/doc/latex/translation-dcolumn-fr/README
 %doc %{_texmfdistdir}/doc/latex/translation-dcolumn-fr/f-dcolumn.dtx
 %doc %{_texmfdistdir}/doc/latex/translation-dcolumn-fr/f-dcolumn.pdf
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -39,5 +36,3 @@ A French translation of the documentation of dcolumn.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
