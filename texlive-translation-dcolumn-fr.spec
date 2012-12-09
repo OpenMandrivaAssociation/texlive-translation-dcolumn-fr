@@ -36,3 +36,16 @@ A French translation of the documentation of dcolumn.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 20111020-2
++ Revision: 757081
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20111020-1
++ Revision: 719796
+- texlive-translation-dcolumn-fr
+- texlive-translation-dcolumn-fr
+- texlive-translation-dcolumn-fr
+
