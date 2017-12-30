@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-translation-dcolumn-fr
-Version:	20111020
-Release:	10
+Version:	20170414
+Release:	1
 Summary:	French translation of the documentation of dcolumn
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/translations/dcolumn/fr
