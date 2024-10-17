@@ -3,7 +3,7 @@ Version:	24345
 Release:	2
 Summary:	French translation of the documentation of dcolumn
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/translations/dcolumn/fr
+URL:		https://www.ctan.org/tex-archive/info/translations/dcolumn/fr
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/translation-dcolumn-fr.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/translation-dcolumn-fr.doc.r%{version}.tar.xz
